@@ -1,6 +1,7 @@
 # 203b-Docker-Notes
 Personal notes for docker.
-to learn by doing.
+
+Docker Image is a modified version of huazhou/ucla-biostat-203b-2024w which uses rocker/rstudio and rocker/geospactial but with added added packages for biostat212a and biostat203b.
 
 ### Docker Compose:
 

@@ -27,5 +27,5 @@ If you want to BUILD your own image because you are missing a package. Add the p
 
 **Review the docker-build.sh script before executing**  
 
-run `bash docker-build.sh`. This takes about 3 hours to complete!!!
+run `bash ./Docker/docker-build.sh`. This takes about 3 hours to complete!!!
 

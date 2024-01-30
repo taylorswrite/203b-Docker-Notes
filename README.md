@@ -17,7 +17,7 @@ See my dockerhub repositories [[taylorswrite](https://hub.docker.com/u/taylorswr
 directory and edit the volumes to point to your local directories. The start of
 the  directory is `./`, meaning its a realive directory that uses the location
 of the docker-compose.yml as the starting directory. For **WSL** users, if you have a local
-rstudio-server running, run `sudo rstudio-server stop` to open localport:8787.
+rstudio-server running, run `sudo rstudio-server stop` to free localport:8787.
 
 5. Run `docker-compose up` in the directory you placed the docker-compose.yml to start the docker container and open localport:8787.
 

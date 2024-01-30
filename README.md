@@ -25,6 +25,7 @@ rstudio-server running, run `sudo rstudio-server stop` to free localport:8787.
 
 If you want to BUILD your own image because you are missing a package. Add the package name to the packages txt file. 
 
-**Review the docker-build.sh script before executing** then run `bash docker-build.sh`.
-This takes about 3 hours to complete!!!
+**Review the docker-build.sh script before executing**  
+
+run `bash docker-build.sh`. This takes about 3 hours to complete!!!
 

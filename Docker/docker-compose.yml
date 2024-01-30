@@ -1,0 +1,23 @@
+# Place docker-compose file in home directory
+services:
+  rstudio:
+    # Pulls the image from dockerhub not locally.
+    image: taylorswrite/rstudio:latest
+    # localport:dockerport
+    ports:
+      - "8787:8787"
+      - "8888:8888"
+    environment:
+      PASSWORD: 203b
+      ROOT: true
+      DISABLE_AUTH: true
+      # USERID: 1000 # uid of rstudio user in the container
+      # GROUPID: 1001 # gid of staff group in the container
+    
+    # The Volumes below are relative directories from where the docker-compose file is.
+    # Place the docker compose file in home directory and adjust to match your computer.
+    volumes:
+      - "./mimic:/home/rstudio/mimic"
+      - "./github:/home/rstudio/github"
+      - "./.ssh:/home/rstudio/.ssh"
+      - "./.gitconfig:/etc/gitconfig"

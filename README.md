@@ -32,6 +32,9 @@ to the appropriate txt file and rebuild the image as a new version.
 
 run `bash ./Docker/docker-build.sh`. This takes about 3 hours to complete!!!
 
+If you get an error or the build loops, ctrl-c and restart the bash script with the same imputs.
+Your progress will be saved.
+
 
 ### What is a Dockerfile, a docker-compose file, Image, Container, Manifest, and Registry?
 
